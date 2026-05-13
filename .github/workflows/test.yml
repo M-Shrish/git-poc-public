@@ -3,7 +3,7 @@ name: Dev Pipeline With Approval
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   build:
