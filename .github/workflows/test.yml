@@ -26,10 +26,6 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
 
-    # 🔥 This triggers approval gate
-    environment:
-      name: dev
-
     steps:
       - name: Deploy step
         run: echo "Deploying to DEV after approval..."
